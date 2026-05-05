@@ -1,6 +1,25 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/installer/compare/v5.25.3...master)
+## [Unreleased](https://github.com/laravel/installer/compare/v5.27.0...master)
+
+## [v5.27.0](https://github.com/laravel/installer/compare/v5.26.1...v5.27.0) - 2026-05-05
+
+* Allow Symfony 8 in composer dependencies by [@ghostwriter](https://github.com/ghostwriter) in https://github.com/laravel/installer/pull/504
+* Formatting cleanup by [@joetannenbaum](https://github.com/joetannenbaum) in https://github.com/laravel/installer/pull/509
+* Emit structured JSON output when invoked by AI agents by [@joetannenbaum](https://github.com/joetannenbaum) in https://github.com/laravel/installer/pull/508
+* Fix uncommenting use RefreshDatabase in Pest.php by [@lancechentw](https://github.com/lancechentw) in https://github.com/laravel/installer/pull/516
+
+## [v5.26.1](https://github.com/laravel/installer/compare/v5.26.0...v5.26.1) - 2026-04-21
+
+* Skip task prompt on Windows by [@joetannenbaum](https://github.com/joetannenbaum) in https://github.com/laravel/installer/pull/507
+
+## [v5.26.0](https://github.com/laravel/installer/compare/v5.25.3...v5.26.0) - 2026-04-21
+
+* [5.x] Fix CI tests not running by [@jackbayliss](https://github.com/jackbayliss) in https://github.com/laravel/installer/pull/501
+* [5.x] Ensure update doesnt loop in Windows  by [@jackbayliss](https://github.com/jackbayliss) in https://github.com/laravel/installer/pull/500
+* Filter non-string env values in Windows interactive process runner by [@JoshSalway](https://github.com/JoshSalway) in https://github.com/laravel/installer/pull/499
+* Concise output with Prompt's task function by [@joetannenbaum](https://github.com/joetannenbaum) in https://github.com/laravel/installer/pull/503
+* Fix laravel/prompts version constraint by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/installer/pull/505
 
 ## [v5.25.3](https://github.com/laravel/installer/compare/v5.25.2...v5.25.3) - 2026-04-07
 
